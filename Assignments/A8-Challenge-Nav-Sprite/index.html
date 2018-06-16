@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Nav Sprite Challenge</title>
+		<style>
+			html { background-color: #333; }
+			body { background-color: #eee; width: 400px; margin: 50px auto; padding:25px; }
+
+			nav.mainmenu a {
+				display: block;
+
+				width: 375px;
+				height: 100px;
+
+				background-image: url(./img/sprite.png);
+
+				color: white;
+				text-decoration: none;
+				line-height: 100px;
+				font-size: 30px;
+				font-family: sans-serif;
+				font transform: uppercase;
+
+				padding-left: 25px;
+				margin-bottom: 5px;
+
+				transition: all 0.5s;
+
+			}
+
+			nav.mainmenu a.last {
+				margin-bottom: none;
+			}
+
+			nav.mainmenu a.youAreHere {background-position: 0px -300px;}
+			nav.mainmenu a:hover {background-position: 0px -100px;}
+			nav.mainmenu a:active {background-position: 0px -200px;}
+
+
+			/*-------------------------------------
+			| Tip: To Speak to only the anchors in the Nav:
+			| 		nav a {}
+			| 		nav a:hover {}
+			| 		nav a:active {}
+			| 		nav a.youAreHere {}
+			|
+			| Your Styles Goes Below This Line
+			-------------------------------------*/
+		</style>
+	</head>
+	<body>
+		<nav class="mainmenu">
+			<a href="#">HOME</a>
+			<a href="#" class="youAreHere">ABOUT</a>
+			<a href="#">GALLERY</a>
+			<a href="#">STAFF</a>
+			<a href="#">HISTORY</a>
+			<a href="#" class"last">CONTACT</a>
+		</nav>
+	</body>
+</html>

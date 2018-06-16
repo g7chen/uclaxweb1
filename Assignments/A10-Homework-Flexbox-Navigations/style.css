@@ -1,0 +1,136 @@
+/*-------------------------------------
+| Body and Container Div
+-------------------------------------*/
+
+body {background-color: #8EA3B6;}
+
+div {
+  width: 800px;
+  background-color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-------------------------------------
+| Root Branches
+-------------------------------------*/
+header {padding: 20px; color: white;}
+nav {padding: 20px;}
+footer {padding:20px; color: white;}
+
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+
+nav a.menulink {
+  display: inline-block;
+
+  width: 175px;
+  height: 30px;
+
+  background-image: url(./img/sprintc.png);
+
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+nav a.last {
+  margin-bottom: none;
+}
+
+a.menulink {
+  background-color: #8EA3B6;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a.youAreHere {background-position: 0px -150px;}
+nav a.menulink:hover {background-position: 0px -50px;}
+nav a.menulink:active {background-position: 0px -100px;}
+
+
+nav.flex-box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/*-------------------------------------
+| Main
+-------------------------------------*/
+
+main {
+  display: flex;
+}
+
+h1 {
+  color: #F4D0D2;
+  text-align: center;
+}
+
+h2 {
+  color: #F4E1DB;
+  text-align: center;
+  font-size: 35px;
+  width: 140%;
+}
+
+h3 {
+  color: white;
+}
+
+article {
+  padding: 20px;
+  width: 70%
+}
+
+aside {
+  color: white;
+  padding: 20px;
+  width: 30%
+}
+
+p {
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+h2.brown {
+  background-color: #680046;
+  padding: 20px;
+}
+
+h2.green {
+  background-color: #284213;
+  padding: 20px;
+}
+
+.lastone {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+#feet {
+  width: 200px;
+  padding: 20px;
+}
+
+h2#first {
+  width: 100%;
+}

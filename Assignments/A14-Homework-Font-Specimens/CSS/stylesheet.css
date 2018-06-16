@@ -1,0 +1,177 @@
+/*-------------------------------------
+| Fonts
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i');
+
+/*-------------------------------------
+| Set-Up
+-------------------------------------*/
+
+body {
+  background-color: #262626;
+}
+
+div.container {
+  width: 750px;
+  height: 950px;
+  background-color: #eaeaea;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.seperate {
+  margin-bottom: 40px;
+}
+
+/*-------------------------------------
+| Header
+-------------------------------------*/
+
+div.header {
+  width: 700px;
+  height: 60px;
+  background-color: #ffffff;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+  line-height: 100%;
+
+  position: relative;
+  top: 10px;
+
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.header h2 {
+  display: inline;
+  text-align: center;
+
+  position: relative;
+  left: 10px; top: 20px;
+}
+
+.header h2.title-exo {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.header h2.title-josefin {
+  font-family: 'Josefin Slab', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+/*-------------------------------------
+| Section 1
+-------------------------------------*/
+
+section.first-section {
+  width: 680px;
+  height: 350px;
+  background-color: #ffffff;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+  line-height: 100%;
+
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+.first-section h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  line-height: 40%;
+}
+
+.first-section h2 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  line-height: 40%;
+}
+
+.first-section h3 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 40%;
+}
+
+
+.first-section div.para p {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  line-height: 2;
+}
+
+
+.first-section div.para {
+  width: 650px;
+  height: 200px;
+  background-color: #c9c9c9;
+  padding: 10px;
+}
+
+
+/*-------------------------------------
+| Second Section
+-------------------------------------*/
+
+section.second-section {
+  width: 680px;
+  height: 350px;
+  background-color: #ffffff;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+  line-height: 100%;
+
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.second-section h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 40%;
+}
+
+.second-section h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  line-height: 40%;
+}
+
+.second-section h3 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  line-height: 40%;
+}
+
+.second-section p {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  color: maroon;
+}
+
+.second-section div.para {
+  width: 650px;
+  height: 220px;
+  background-color: #c9c9c9;
+  padding: 10px;
+}

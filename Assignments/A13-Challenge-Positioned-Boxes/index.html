@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Positioning Challenge</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<style>
+
+				div.container {position: relative;}
+
+				div.rel div.box {position: relative;}
+				div.rel div.one {left: 100px;  top: 100px;}
+				div.rel div.two {left: 200px;  top: 100px;}
+				div.rel div.three {left: 300px;  top: 100px;}
+				div.rel div.four {left: 400px;  top: 100px;}
+
+				div.abs div.box {position: absolute;}
+				div.abs div.one {right: 0px; top: 0px;   z-index: 2; }
+				div.abs div.two {right: 50px; top: 50px; z-index: 1; }
+				div.abs div.three {left: 0px; bottom: 0px; z-index: 2; }
+				div.abs div.four {left: 50px; bottom: 50px; z-index: 1; }
+
+
+				div.fix div.box {position: fixed;}
+				div.fix div.one {left: 0px; top: 0px;}
+				div.fix div.two {right: 0px; top: 0px;}
+				div.fix div.three {left: 0px; bottom: 0px;}
+				div.fix div.four {right: 0px; bottom: 0px;}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="rel">
+				<div class="box one">	R1</div>
+				<div class="box two">	R2</div>
+				<div class="box three">	R3</div>
+				<div class="box four">	R4</div>
+			</div>
+
+			<div class="abs">
+				<div class="box one">	A1</div>
+				<div class="box two">	A2</div>
+				<div class="box three"> A3</div>
+				<div class="box four">	A4</div>
+			</div>
+
+			<div class="fix">
+				<div class="box one">	F1</div>
+				<div class="box two">	F2</div>
+				<div class="box three">	F3</div>
+				<div class="box four">	F4</div>
+			</div>
+		</div>
+
+	</body>
+</html>

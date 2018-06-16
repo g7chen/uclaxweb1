@@ -5,6 +5,31 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<style type="text/css">
 
+      nav.single-sprite a {
+        display: inline-block;
+
+        width: 150px;
+        height: 200px;
+
+        background-image: url(./img/3-sprite-one.jpg);
+
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+        font-size: 18px;
+
+				background-position: left top;
+
+				transition: all 1s;
+      }
+
+			nav.single-sprite a:hover {background-position: 0px -200px;}
+			nav.single-sprite a:active {background-position: 0px -400px;}
+			nav.single-sprite a.theChosenOne {background-position: 0px -600px;}
+
+
 		</style>
     </head>
     <body>

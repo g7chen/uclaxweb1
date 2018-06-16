@@ -1,0 +1,41 @@
+body {
+	background-color: #eee;
+
+	margin: 0px;
+
+}
+.container {
+	background-image: url(../img/pixelgrid-600.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+
+	width: 600px;
+	height: 600px;
+	margin: 50px auto 0px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	position: relative;
+
+	box-shadow: 0px 0px 25px rgba(0,0,0,.20);
+
+}
+/*-------------------------------------
+| Box Default
+-------------------------------------*/
+.box {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border: solid 5px rgba(0, 0, 0, 0.25);
+
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+
+
+}
+.rel .box { background-color: rgba(1, 132, 132, 0.7); }
+.abs .box { background-color: rgba(132, 32, 1, .95); }
+.fix .box { background-color: rgba(131, 1, 132, 0.7); }
